@@ -2,7 +2,6 @@ version: '3'
 services:
   yolov8_fastapi:
     build: .
-    restart: "always"
     volumes:
       - .:/app
     ports:
