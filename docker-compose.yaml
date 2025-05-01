@@ -11,8 +11,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.yolofastapi.rule=Host(`detectpadi.my.id`)"
-      - "traefik.http.routers.yolofastapi.entrypoints=websecure"
-      - "traefik.http.routers.yolofastapi.tls.certResolver=letsencrypt"
+      - "traefik.http.routers.yolofastapi.entrypoints=web"
+      # - "traefik.http.routers.yolofastapi.tls.certResolver=letsencrypt"
       - "traefik.http.services.yolofastapi.loadbalancer.server.port=8008"
     command: uvicorn main:app --host 0.0.0.0 --port 8008
 # networks:
