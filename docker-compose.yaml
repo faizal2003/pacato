@@ -6,8 +6,8 @@ services:
       - .:/app
     ports:
       - "8008"
-    networks:
-      - dokploy_network
+    # networks:
+    #   - dokploy_network
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.yolofastapi.rule=Host(`detectpadi.my.id`)"
