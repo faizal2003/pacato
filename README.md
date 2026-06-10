@@ -1,7 +1,7 @@
 [![Coverage Status](https://img.shields.io/badge/coverage-97%25-brightgreen.svg)](https://github.com/Alex-Lekov/yolov8-fastapi)
 
-# YOLOv8-FastAPI:
-This repository serves as a template for object detection using YOLOv8 and FastAPI. With YOLOv8, you get a popular real-time object detection model and with FastAPI, you get a modern, fast (high-performance) web framework for building APIs. The project also includes Docker, a platform for easily building, shipping, and running distributed applications.
+# YOLO11-FastAPI:
+This repository serves as a template for object detection using YOLO11 and FastAPI. With YOLO11, you get a popular real-time object detection model and with FastAPI, you get a modern, fast (high-performance) web framework for building APIs. The project also includes Docker, a platform for easily building, shipping, and running distributed applications.
 
 ### Sample
 Here's a sample of what you can expect to see with this project:
@@ -9,7 +9,7 @@ Here's a sample of what you can expect to see with this project:
 
 # What's inside:
 
-- YOLOv8: A popular real-time object detection model
+- YOLO11: A popular real-time object detection model
 - FastAPI: A modern, fast (high-performance) web framework for building APIs
 - Docker: A platform for easily building, shipping, and running distributed applications
 
@@ -45,7 +45,7 @@ http://0.0.0.0:8001/docs#/
 
 <img width=600 src="./tests/res/fastapi.png" alt="FAST API">    
 
-Ready to start your object detection journey with YOLOv8-FastAPI? 🚀
+Ready to start your object detection journey with YOLO11-FastAPI? 🚀
 
 ---
 # 🚀 Code Examples
@@ -94,8 +94,8 @@ plt.imshow(img)
 
 # Overview of the code
 * [main.py](./main.py) - Base FastAPI functions  
-* [app.py](./app.py) - YoloV8 functions     
-* [./models](./models) - YoloV8 models folder    
+* [app.py](./app.py) - Yolo11 functions     
+* [./models](./models) - Yolo11 models folder    
 
 ---
 # Test
